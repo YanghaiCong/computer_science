@@ -14,3 +14,5 @@ screen -r \[session # you want to kill\]
 ### kill a screen
 screen -X -S \[session # you want to kill\] kill
 
+
+
