@@ -15,6 +15,7 @@ press `ctrl+a` then `d`
 > screen -X -S \[session # you want to kill\] kill
 
 ### kill all screens
-> pkill screen
+> pkill screen  
+
 > killall screen
 
