@@ -4,115 +4,117 @@ This is a [link](https://zhuanlan.zhihu.com/p/21723250) to a good article for Li
 
 This is a[link](https://www.youtube.com/watch?v=jDINUSK7rXE) to a good video tutorial.
 
-> pwd
 
 Print Work Dirictory
 
-> whoami
+> pwd
 
 Get the current user name
 
-> ls
+> whoami
 
 list the content in the current directory
+Note: if you type "open xx" and hit "tab" the terminal will auto complete the file name for you
 
-> ls -a
+> ls
 
 list all the content
 
-> cd XXX/
+> ls -a
+
 
 Change directory to xxx/
 
-> touch XXX.XXX
+> cd XXX/
 
 Create a file named "xxx.xxx"
 
-> open XXX.XXX
+> touch XXX.XXX
 
 Open the XXX.XXX with the default program
 
-Note: if you type "open xx" and hit "tab" the terminal will auto complete the file name for you
+> open XXX.XXX
+
+
+Open the XXX.XXX with the apllication ABC
 
 > open XXX.XXX -a "ABC"
 or
 > open XXX.XXX -a ABC
 
-Open the XXX.XXX with the apllication ABC
+Open the folder of the current directory
 
 > open .
 
-Open the folder of the current directory
+Type "xxx" into file "XXX.XXX"
 
 > echo "XXX" >> XXX.XXX
 
-Type "xxx" into file "XXX.XXX"
+Print the content in the file  "XXX.XXX"
 
 > cat XXX.XXX 
 
-Print the content in the file  "XXX.XXX"
+Print a short version of a long file
+Note: Hit "q" to quit view
 
 > less XXX.XXX
 
-Print a short version of a long file
-
-Note: Hit "q" to quit view
+Change the directory to one upper level
 
 > cd ..
 
-Change the directory to one upper level
+Remove XXX.XXX from directory XXX/
 
 > rm XXX/XXX.XXX
 
-Remove XXX.XXX from directory XXX/
+Make a directory in the current directory
 
 > mkdir XXX
 
-Make a directory in the current directory
+Remove a directory XXX (the "-r" indicate that you are removing a directory)
 
 > rm -r XXX
 
-Remove a directory XXX (the "-r" indicate that you are removing a directory)
+Copy XXX.XXX from directory to YYY/
 
 > cp XXX/XXX.XXX YYY/
 
-Copy XXX.XXX from directory to YYY/
+Show manual for command "xxx"
 
 > man xxx
 
-Show manual for command "xxx"
+Show Calender for the current month
 
 > cal
 
-Show Calender for the current month
+Show calender for the current year
 
 > cal -y
 
-Show calender for the current year
+Show today's date
 
 > date
 
-Show today's date
+Change the directory to root directory (Macintosh HD)
 
 > cd /
 
-Change the directory to root directory (Macintosh HD)
+Change the directory to your user directory
 
 > cd ~
 
-Change the directory to your user directory
+Rename file XXX.XXX to YYY.XXX
 
 > mv XXX.XXX YYY.XXX
 
-Rename file XXX.XXX to YYY.XXX
+Rename directory XXX to YYY
 
 > mv XXX YYY
 
-Rename directory XXX to YYY
+Exit the terminal
 
 > exit
 
-Exit the terminal
 
 
 
