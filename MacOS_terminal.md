@@ -2,7 +2,7 @@ This is a [link](https://www.renfei.org/blog/mac-os-x-terminal-101.html) to a go
 
 This is a [link](https://zhuanlan.zhihu.com/p/21723250) to a good article for Linux.
 
-This is a[link](https://www.youtube.com/watch?v=jDINUSK7rXE) to a good video tutorial.
+This is a [link](https://www.youtube.com/watch?v=jDINUSK7rXE) to a good video tutorial.
 
 
 Print Work Dirictory
