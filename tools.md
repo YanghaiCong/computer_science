@@ -1,5 +1,0 @@
-- WinSCP|FileZilla
-- Notepad++
-- PuTTY
-- TeamViewer
-- 
