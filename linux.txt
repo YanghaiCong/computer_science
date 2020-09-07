@@ -1,0 +1,32 @@
+https://www.bilibili.com/video/BV1mW411i7Qf?p=12
+
+
+note1: . means current directory
+note2: .. means upper dir
+
+
+
+command1: ls: list
+
+ls -a -l -d -h -i [目录]
+a: all
+l: long
+d: directory
+h: human
+i: index
+
+command2: mkdir: makedirectory
+p: recursive
+
+command3: cd: changedirectory
+
+command4: pwd: printworkingdirectory
+
+command5: rmdir: removeemptydirectory
+
+command6: cp: copy, eg.: cp [file or dir to be copied] [target dir]
+r: for dir
+p: reserve attributes
+
+
+
