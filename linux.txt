@@ -28,5 +28,14 @@ command6: cp: copy, eg.: cp [file or dir to be copied] [target dir]
 r: for dir
 p: reserve attributes
 
+command7: mv: move
 
+command8: rm: remove
+r: for dir
+f: force, so no question
+
+command9: touch
+
+command10: cat
+n: add line number
 
