@@ -6,69 +6,63 @@ note2: .. means upper dir
 
 
 
-command1: ls: list
+"ls [dir]" (list)
+-a: all
+-l: long
+-d: directory
+-h: human
+-i: index
 
-ls -a -l -d -h -i [目录]
-a: all
-l: long
-d: directory
-h: human
-i: index
+"mkdir [dir]" (makedirectory)
+-p: recursive
 
-command2: mkdir: makedirectory
-p: recursive
+"cd [dir]" (changedirectory)
 
-command3: cd: changedirectory
+"pwd" (printworkingdirectory)
 
-command4: pwd: printworkingdirectory
+"rmdir [dir]" (removeemptydirectory)
 
-command5: rmdir: removeemptydirectory
+"cp [file|dir] [target dir]" (copy and paste)
+-r: for dir
+-p: reserve attributes
 
-command6: cp: copy, eg.: cp [file or dir to be copied] [target dir]
-r: for dir
-p: reserve attributes
+"mv [file|dir]" (move)
 
-command7: mv: move
+"rm [file|dir]" (remove)
+-r: for dir
+-f: force, so no question
 
-command8: rm: remove
-r: for dir
-f: force, so no question
+"touch [file]"
 
-command9: touch
+"cat [file]" 
+-n: add line number
 
-command10: cat
-n: add line number
+"ln [original_file] [linked_file]" (create a linked file)
+-s:  softlink
 
-ccc: ln: link
-s: [originalfile] [linkfile] softlink
+"chmod" changemode
+# u (user); g (group) o (other); a (all)
+# + - =
+# r (read): 4
+# w (write): 2
+# x (excute): 1
+-R: recursive
+# rwx = 7
+# rw- = 6
+# r-- = 4
+# --- = 0
 
-ccc: chmod changemode
-ugoa
-+-=
-rwx:421
-R: recursive
-rwx = 7
-rw- = 6
-r-- = 4
---- = 0
+"chown [new_owner] [dir|folder]" (changeowner)
 
-ccc: chown: changeowner
-eg: chown [jan] [dir or file]
+"chgrp [dir|fille]" (changegroup)
 
-ccc: chgrp: changegroup
+"groupadd [group name]" (group add)
 
-ccc: groupadd
+"su [user]" (switchuser)
 
+"useradd [user]" (user add)
 
-ccc: su: switchuser
-eg: su jan
-
-
-ccc: useradd xxx
-
-ccc: passwd xxx
-
-
+"passwd [user]" (change password)
 
 
 
