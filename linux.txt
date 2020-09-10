@@ -39,3 +39,36 @@ command9: touch
 command10: cat
 n: add line number
 
+ccc: ln: link
+s: [originalfile] [linkfile] softlink
+
+ccc: chmod changemode
+ugoa
++-=
+rwx:421
+R: recursive
+rwx = 7
+rw- = 6
+r-- = 4
+--- = 0
+
+ccc: chown: changeowner
+eg: chown [jan] [dir or file]
+
+ccc: chgrp: changegroup
+
+ccc: groupadd
+
+
+ccc: su: switchuser
+eg: su jan
+
+
+ccc: useradd xxx
+
+ccc: passwd xxx
+
+
+
+
+
