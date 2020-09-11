@@ -64,5 +64,5 @@ note2: .. means upper dir
 
 "passwd [user]" (change password)
 
-
+"man [command]" (manual) 
 
