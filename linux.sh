@@ -66,7 +66,7 @@ note2: .. means upper dir
 
 "man [command]" (manual) 
 
-"change" (@@@@@@@@@@@@@@@@@@@@@@)
+"change" 
 
 
 
