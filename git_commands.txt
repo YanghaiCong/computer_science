@@ -1,2 +1,8 @@
 git clone https://github.com/mwcong/linux.git
-git 
+git pull https://github.com/mwcong/linux.git
+git branch master
+git checkout master
+git add [file]
+git commit -m "message"
+git push --set-upstream origin master
+ 
