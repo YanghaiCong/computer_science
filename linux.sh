@@ -75,4 +75,8 @@ note2: .. means upper dir
 # \n: next line
 # \e[1;31m abcd\e[0m: color
 
+"history" 
+-w: write
+-c: clear
+
 
