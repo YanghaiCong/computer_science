@@ -68,5 +68,11 @@ note2: .. means upper dir
 
 "change" 
 
+"echo [text]" 
+-e: translate
+# \b: back one space
+# \t: tab
+# \n: next line
+# \e[1;31m abcd\e[0m: color
 
 
