@@ -13,6 +13,8 @@ note2: .. means upper dir
 -h: human
 -i: index
 
+"ll (dir)" (=ls -l)
+
 "mkdir [dir]" (makedirectory)
 -p: recursive
 
@@ -78,5 +80,16 @@ note2: .. means upper dir
 "history" 
 -w: write
 -c: clear
+
+
+"grep [keywords] [dir]"
+-i: ignore case
+-n: line number
+-v: reverse search
+--color=auto (highlight keywords)
+
+"netstat"
+-a
+-n
 
 
